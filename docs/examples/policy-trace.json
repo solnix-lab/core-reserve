@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "ticks": [
+    { "at_ms": 0 },
+    {
+      "at_ms": 3000,
+      "service": {
+        "observed_at_ms": 3000,
+        "service_instance": "lab-rpc",
+        "benchmark_report": "service-only-load.json"
+      },
+      "cpu_pressure": { "observed_at_ms": 3000, "some_ppm": 10000 }
+    },
+    { "at_ms": 4000, "cpu_pressure": { "observed_at_ms": 4000, "some_ppm": 10000 } },
+    { "at_ms": 5000, "cpu_pressure": { "observed_at_ms": 5000, "some_ppm": 10000 } },
+    { "at_ms": 5500, "cpu_pressure": { "observed_at_ms": 5500, "some_ppm": 10000 } },
+    {
+      "at_ms": 6000,
+      "service": {
+        "observed_at_ms": 6000,
+        "service_instance": "lab-rpc",
+        "benchmark_report": "shared-load.json"
+      },
+      "cpu_pressure": { "observed_at_ms": 6000, "some_ppm": 10000 }
+    },
+    { "at_ms": 8000, "cpu_pressure": { "observed_at_ms": 8000, "some_ppm": 200000 } },
+    {
+      "at_ms": 9000,
+      "service": {
+        "observed_at_ms": 9000,
+        "service_instance": "lab-rpc",
+        "benchmark_report": "static-partition-load.json"
+      },
+      "cpu_pressure": { "observed_at_ms": 9000, "some_ppm": 10000 }
+    },
+    { "at_ms": 10000, "cpu_pressure": { "observed_at_ms": 10000, "some_ppm": 10000 } },
+    { "at_ms": 11000, "cpu_pressure": { "observed_at_ms": 11000, "some_ppm": 10000 } },
+    { "at_ms": 11500, "cpu_pressure": { "observed_at_ms": 11500, "some_ppm": 10000 } },
+    { "at_ms": 12000, "cpu_pressure": { "observed_at_ms": 12000, "some_ppm": 10000 } },
+    { "at_ms": 14001 }
+  ]
+}

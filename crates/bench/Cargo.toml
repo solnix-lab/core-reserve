@@ -1,0 +1,15 @@
+[package]
+name = "corereserve-bench"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+publish = false
+
+[dependencies]
+clap.workspace = true
+corereserve-telemetry = { path = "../telemetry" }
+rustix = { workspace = true, features = ["thread"] }
+serde.workspace = true
+serde_json.workspace = true
+tempfile.workspace = true
+tokio.workspace = true
